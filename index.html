@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>We Love Fixit | Servicios Premium de Reparación Tecnológica</title>
+  <meta name="description"
+    content="We Love Fixit — Servicio experto de reparación para smartphones, laptops, PCs y consolas de videojuegos. Entrega rápida, técnicos certificados, garantía de por vida." />
+  <meta name="keywords"
+    content="reparación tecnológica, reparación de teléfonos, reparación de laptops, reparación de PC, reparación de consolas, cambio de pantalla, We Love Fixit" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════════ HEADER ═══════════════ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="header__logo">
+        <svg class="header__logo-icon" viewBox="0 0 40 40" fill="none">
+          <path
+            d="M20 4C12.268 4 6 10.268 6 18c0 3.866 1.575 7.369 4.12 9.898L20 36l9.88-8.102C32.425 25.37 34 21.866 34 18c0-7.732-6.268-14-14-14z"
+            fill="url(#heartGrad)" />
+          <path d="M15 16l2 2 6-6" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+          <defs>
+            <linearGradient id="heartGrad" x1="6" y1="4" x2="34" y2="36" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#135bec" />
+              <stop offset="1" stop-color="#6a3de8" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <span>We Love Fixit</span>
+      </a>
+
+      <nav class="header__nav" id="mainNav">
+        <a href="#services" class="header__link">Servicios</a>
+        <a href="#why-us" class="header__link">¿Por Qué Nosotros?</a>
+        <a href="#process" class="header__link">Cómo Funciona</a>
+        <a href="#pricing" class="header__link">Precios</a>
+        <a href="#testimonials" class="header__link">Opiniones</a>
+        <a href="#contact" class="header__link btn btn--outline btn--sm">Contáctanos</a>
+      </nav>
+
+      <button class="header__burger" id="burgerBtn" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__grid"></div>
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+      <div class="hero__orb hero__orb--3"></div>
+    </div>
+    <div class="container hero__inner">
+      <div class="hero__badge animate-on-scroll">⚡ Rápido. Confiable. Certificado.</div>
+      <h1 class="hero__title animate-on-scroll">
+        Reparamos Tu <span class="gradient-text">Vida Digital</span>
+      </h1>
+      <p class="hero__subtitle animate-on-scroll">
+        Reparación experta para smartphones, laptops, PCs y consolas de videojuegos.<br />
+        Técnicos certificados. Garantía de por vida. Servicio en el mismo día.
+      </p>
+      <div class="hero__actions animate-on-scroll">
+        <a href="#contact" class="btn btn--primary btn--lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+          Agendar Reparación
+        </a>
+        <a href="#services" class="btn btn--glass btn--lg">
+          Explorar Servicios →
+        </a>
+      </div>
+      <div class="hero__devices animate-on-scroll">
+        <div class="hero__device">
+          <svg viewBox="0 0 48 48" fill="none">
+            <rect x="12" y="6" width="24" height="36" rx="4" stroke="currentColor" stroke-width="2" />
+            <circle cx="24" cy="36" r="2" fill="currentColor" />
+            <line x1="18" y1="10" x2="30" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+          <span>Móviles</span>
+        </div>
+        <div class="hero__device">
+          <svg viewBox="0 0 48 48" fill="none">
+            <rect x="6" y="8" width="36" height="24" rx="3" stroke="currentColor" stroke-width="2" />
+            <path d="M14 36h20M20 32v4M28 32v4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+          <span>Laptops</span>
+        </div>
+        <div class="hero__device">
+          <svg viewBox="0 0 48 48" fill="none">
+            <rect x="8" y="6" width="32" height="28" rx="3" stroke="currentColor" stroke-width="2" />
+            <line x1="24" y1="34" x2="24" y2="40" stroke="currentColor" stroke-width="2" />
+            <line x1="16" y1="40" x2="32" y2="40" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+          <span>PC</span>
+        </div>
+        <div class="hero__device">
+          <svg viewBox="0 0 48 48" fill="none">
+            <rect x="6" y="14" width="36" height="20" rx="10" stroke="currentColor" stroke-width="2" />
+            <circle cx="16" cy="24" r="4" stroke="currentColor" stroke-width="1.5" />
+            <circle cx="34" cy="22" r="1.5" fill="currentColor" />
+            <circle cx="32" cy="26" r="1.5" fill="currentColor" />
+            <circle cx="36" cy="24" r="1.5" fill="currentColor" />
+          </svg>
+          <span>Consolas</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ SERVICES ═══════════════ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Nuestra Especialidad</span>
+        <h2 class="section-title">Servicios de <span class="gradient-text">Reparación Especializados</span></h2>
+        <p class="section-subtitle">Desde pantallas rotas hasta fallas de sistema — lo manejamos todo con precisión y
+          cuidado.</p>
+      </div>
+
+      <div class="services__grid">
+        <!-- Móviles -->
+        <div class="service-card animate-on-scroll" data-delay="0">
+          <div class="service-card__icon service-card__icon--blue">
+            <svg viewBox="0 0 48 48" fill="none">
+              <rect x="12" y="6" width="24" height="36" rx="4" stroke="currentColor" stroke-width="2" />
+              <circle cx="24" cy="36" r="2" fill="currentColor" />
+              <line x1="18" y1="10" x2="30" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="service-card__title">Reparación de Smartphones</h3>
+          <p class="service-card__text">Cambio de pantalla, reemplazo de batería, reparación de puerto de carga,
+            recuperación por daño de agua y diagnóstico de software para todas las marcas.</p>
+          <ul class="service-card__list">
+            <li>Pantalla y Display</li>
+            <li>Cambio de Batería</li>
+            <li>Puerto de Carga</li>
+            <li>Daño por Agua</li>
+          </ul>
+          <a href="#contact" class="service-card__link">Solicitar Cotización →</a>
+        </div>
+
+        <!-- Laptops -->
+        <div class="service-card animate-on-scroll" data-delay="100">
+          <div class="service-card__icon service-card__icon--purple">
+            <svg viewBox="0 0 48 48" fill="none">
+              <rect x="6" y="8" width="36" height="24" rx="3" stroke="currentColor" stroke-width="2" />
+              <path d="M14 36h20M20 32v4M28 32v4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="service-card__title">Reparación de Laptops</h3>
+          <p class="service-card__text">Cambio de teclado, reparación de bisagras, mejoras de SSD, renovación de pasta
+            térmica y diagnóstico completo para Mac y Windows.</p>
+          <ul class="service-card__list">
+            <li>Teclado y Trackpad</li>
+            <li>Mejora SSD/RAM</li>
+            <li>Reparación de Bisagras</li>
+            <li>Cambio de Pantalla</li>
+          </ul>
+          <a href="#contact" class="service-card__link">Solicitar Cotización →</a>
+        </div>
+
+        <!-- PC -->
+        <div class="service-card animate-on-scroll" data-delay="200">
+          <div class="service-card__icon service-card__icon--cyan">
+            <svg viewBox="0 0 48 48" fill="none">
+              <rect x="8" y="6" width="32" height="28" rx="3" stroke="currentColor" stroke-width="2" />
+              <line x1="24" y1="34" x2="24" y2="40" stroke="currentColor" stroke-width="2" />
+              <line x1="16" y1="40" x2="32" y2="40" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="service-card__title">Reparación de PC</h3>
+          <p class="service-card__text">Ensamblaje personalizado, mejoras de hardware, eliminación de virus,
+            recuperación de datos y optimización de rendimiento para escritorios y estaciones de trabajo.</p>
+          <ul class="service-card__list">
+            <li>Ensamblaje a Medida</li>
+            <li>Mejoras de Hardware</li>
+            <li>Eliminación de Virus</li>
+            <li>Recuperación de Datos</li>
+          </ul>
+          <a href="#contact" class="service-card__link">Solicitar Cotización →</a>
+        </div>
+
+        <!-- Consolas -->
+        <div class="service-card animate-on-scroll" data-delay="300">
+          <div class="service-card__icon service-card__icon--pink">
+            <svg viewBox="0 0 48 48" fill="none">
+              <rect x="6" y="14" width="36" height="20" rx="10" stroke="currentColor" stroke-width="2" />
+              <circle cx="16" cy="24" r="4" stroke="currentColor" stroke-width="1.5" />
+              <circle cx="34" cy="22" r="1.5" fill="currentColor" />
+              <circle cx="32" cy="26" r="1.5" fill="currentColor" />
+              <circle cx="36" cy="24" r="1.5" fill="currentColor" />
+            </svg>
+          </div>
+          <h3 class="service-card__title">Reparación de Consolas</h3>
+          <p class="service-card__text">Reparación de puerto HDMI, arreglo de lector de discos, soluciones de
+            sobrecalentamiento, reparación de drift en joystick para PlayStation, Xbox y Nintendo Switch.</p>
+          <ul class="service-card__list">
+            <li>Puerto HDMI</li>
+            <li>Lector de Discos</li>
+            <li>Sobrecalentamiento</li>
+            <li>Drift de Control</li>
+          </ul>
+          <a href="#contact" class="service-card__link">Solicitar Cotización →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ WHY US ═══════════════ -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">¿Por Qué Elegirnos?</span>
+        <h2 class="section-title">La Confianza de <span class="gradient-text">Miles de Clientes</span></h2>
+        <p class="section-subtitle">Nuestros números hablan por sí solos. Descubre por qué los clientes vuelven una y
+          otra vez.</p>
+      </div>
+
+      <div class="stats animate-on-scroll">
+        <div class="stat">
+          <span class="stat__number" data-target="15000">0</span>
+          <span class="stat__plus">+</span>
+          <span class="stat__label">Dispositivos Reparados</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number" data-target="98">0</span>
+          <span class="stat__plus">%</span>
+          <span class="stat__label">Tasa de Éxito</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number" data-target="24">0</span>
+          <span class="stat__plus">h</span>
+          <span class="stat__label">Tiempo Promedio</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number" data-target="5">0</span>
+          <span class="stat__plus">★</span>
+          <span class="stat__label">Calificación</span>
+        </div>
+      </div>
+
+      <div class="trust-badges animate-on-scroll">
+        <div class="trust-badge">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+          </svg>
+          <span>Garantía de Por Vida</span>
+        </div>
+        <div class="trust-badge">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12 6 12 12 16 14" />
+          </svg>
+          <span>Servicio en el Día</span>
+        </div>
+        <div class="trust-badge">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+            <polyline points="22 4 12 14.01 9 11.01" />
+          </svg>
+          <span>Técnicos Certificados</span>
+        </div>
+        <div class="trust-badge">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="1" y="4" width="22" height="16" rx="2" ry="2" />
+            <line x1="1" y1="10" x2="23" y2="10" />
+          </svg>
+          <span>Precios Transparentes</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PROCESS ═══════════════ -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Simple y Rápido</span>
+        <h2 class="section-title">Cómo <span class="gradient-text">Funciona</span></h2>
+        <p class="section-subtitle">Reparar tu dispositivo es fácil. Conoce nuestro proceso simplificado en 4 pasos.</p>
+      </div>
+
+      <div class="process__timeline">
+        <div class="process__step animate-on-scroll" data-delay="0">
+          <div class="process__number">01</div>
+          <div class="process__content">
+            <h3>Solicita un Diagnóstico</h3>
+            <p>Cuéntanos qué sucede — en línea, por teléfono o visítanos. Te daremos un presupuesto gratuito en minutos.
+            </p>
+          </div>
+        </div>
+        <div class="process__step animate-on-scroll" data-delay="150">
+          <div class="process__number">02</div>
+          <div class="process__content">
+            <h3>Entrega tu Dispositivo</h3>
+            <p>Trae tu dispositivo a nuestra tienda o agenda una recolección gratuita. Lo cuidamos desde el momento en
+              que llega.</p>
+          </div>
+        </div>
+        <div class="process__step animate-on-scroll" data-delay="300">
+          <div class="process__number">03</div>
+          <div class="process__content">
+            <h3>Reparación Experta</h3>
+            <p>Nuestros técnicos certificados diagnostican y reparan tu dispositivo con piezas originales. La mayoría de
+              reparaciones se completan el mismo día.</p>
+          </div>
+        </div>
+        <div class="process__step animate-on-scroll" data-delay="450">
+          <div class="process__number">04</div>
+          <div class="process__content">
+            <h3>Retira y Listo</h3>
+            <p>Tu dispositivo queda probado, limpio y listo para usar. Cada reparación respaldada por nuestra garantía
+              de por vida.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PRICING ═══════════════ -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Justo y Transparente</span>
+        <h2 class="section-title"><span class="gradient-text">Precios</span> de Reparación</h2>
+        <p class="section-subtitle">Sin cargos ocultos. Sin sorpresas. Solo precios honestos con calidad garantizada.
+        </p>
+      </div>
+
+      <div class="pricing__grid">
+        <div class="pricing-card animate-on-scroll" data-delay="0">
+          <div class="pricing-card__header">
+            <h3>Básico</h3>
+            <p>Pantalla y Batería</p>
+          </div>
+          <div class="pricing-card__price">
+            <span class="pricing-card__currency">$</span>
+            <span class="pricing-card__amount">49</span>
+            <span class="pricing-card__period">desde</span>
+          </div>
+          <ul class="pricing-card__features">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#135bec" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg> Cambio de pantalla</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#135bec" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg> Cambio de batería</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#135bec" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg> Puerto de carga</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#135bec" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg> Garantía 90 días</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline btn--full">Comenzar</a>
+        </div>
+
+        <div class="pricing-card pricing-card--featured animate-on-scroll" data-delay="150">
+          <div class="pricing-card__badge">Más Popular</div>
+          <div class="pricing-card__header">
+            <h3>Pro</h3>
+            <p>Cuidado Completo</p>
+          </div>
+          <div class="pricing-card__price">
+            <span class="pricing-card__currency">$</span>
+            <span class="pricing-card__amount">99</span>
+            <span class="pricing-card__period">desde</span>
+          </div>
+          <ul class="pricing-card__features">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#135bec" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg> Todo del plan Básico</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#135bec" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg> Reparación de tarjeta madre</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#135bec" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg> Diagnóstico de software</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#135bec" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg> Respaldo y transferencia de datos</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#135bec" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg> Garantía de por vida</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary btn--full">Comenzar</a>
+        </div>
+
+        <div class="pricing-card animate-on-scroll" data-delay="300">
+          <div class="pricing-card__header">
+            <h3>Empresas</h3>
+            <p>Soluciones Corporativas</p>
+          </div>
+          <div class="pricing-card__price">
+            <span class="pricing-card__currency">$</span>
+            <span class="pricing-card__amount">199</span>
+            <span class="pricing-card__period">/ mes</span>
+          </div>
+          <ul class="pricing-card__features">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#135bec" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg> Todo del plan Pro</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#135bec" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg> Entrega prioritaria</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#135bec" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg> Soporte en sitio</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#135bec" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg> Ejecutivo de cuenta dedicado</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#135bec" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg> Gestión de flota de dispositivos</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline btn--full">Contactar Ventas</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ TESTIMONIALS ═══════════════ -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Clientes Satisfechos</span>
+        <h2 class="section-title">Lo Que <span class="gradient-text">Opinan</span></h2>
+        <p class="section-subtitle">No confíes solo en nuestra palabra — escucha a nuestros clientes satisfechos.</p>
+      </div>
+
+      <div class="testimonials__grid">
+        <div class="testimonial-card animate-on-scroll" data-delay="0">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"La pantalla de mi iPhone estaba completamente destrozada. La cambiaron en
+            menos de una hora y se ve como nuevo. ¡La garantía de por vida me da total tranquilidad!"</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">CM</div>
+            <div>
+              <strong>Carlos Méndez</strong>
+              <span>iPhone 15 Pro — Cambio de Pantalla</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card animate-on-scroll" data-delay="150">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"Pensé que mi PS5 estaba perdida después de que se dañó el puerto HDMI.
+            Estos chicos la revivieron en 24 horas. Profesionales, honestos y económicos."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">LR</div>
+            <div>
+              <strong>Laura Rodríguez</strong>
+              <span>PS5 — Reparación de Puerto HDMI</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card animate-on-scroll" data-delay="300">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"¡El mejor servicio de reparación de laptops de la ciudad! Mejoraron mi RAM,
+            cambiaron la pasta térmica, y ahora mi MacBook funciona como recién salida de la caja."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">JP</div>
+            <div>
+              <strong>Javier Pérez</strong>
+              <span>MacBook Pro — Servicio Completo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CTA ═══════════════ -->
+  <section class="cta" id="contact">
+    <div class="cta__bg">
+      <div class="cta__orb cta__orb--1"></div>
+      <div class="cta__orb cta__orb--2"></div>
+    </div>
+    <div class="container cta__inner animate-on-scroll">
+      <h2 class="cta__title">¿Listo para Reparar tu Dispositivo?</h2>
+      <p class="cta__subtitle">Obtén un diagnóstico y cotización gratis hoy. Ven directamente o agenda en línea —
+        estamos aquí para ti.</p>
+      <div class="cta__actions">
+        <a href="tel:+10000000000" class="btn btn--primary btn--lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+          Llamar Ahora
+        </a>
+        <a href="mailto:hello@welovefixit.com" class="btn btn--glass btn--lg">
+          ✉️ Enviar Correo
+        </a>
+      </div>
+      <div class="cta__info">
+        <div class="cta__info-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+          <span>Av. Tecnología 123, Local 100</span>
+        </div>
+        <div class="cta__info-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12 6 12 12 16 14" />
+          </svg>
+          <span>Lun–Sáb 9:00 AM – 7:00 PM</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#" class="header__logo">
+            <svg class="header__logo-icon" viewBox="0 0 40 40" fill="none">
+              <path
+                d="M20 4C12.268 4 6 10.268 6 18c0 3.866 1.575 7.369 4.12 9.898L20 36l9.88-8.102C32.425 25.37 34 21.866 34 18c0-7.732-6.268-14-14-14z"
+                fill="url(#heartGrad2)" />
+              <path d="M15 16l2 2 6-6" stroke="#fff" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <defs>
+                <linearGradient id="heartGrad2" x1="6" y1="4" x2="34" y2="36" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#135bec" />
+                  <stop offset="1" stop-color="#6a3de8" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <span>We Love Fixit</span>
+          </a>
+          <p>Reparación tecnológica experta en la que puedes confiar. Arreglamos smartphones, laptops, PCs y consolas de
+            videojuegos con cuidado y precisión.</p>
+        </div>
+
+        <div class="footer__links">
+          <h4>Servicios</h4>
+          <a href="#services">Reparación de Smartphones</a>
+          <a href="#services">Reparación de Laptops</a>
+          <a href="#services">Reparación de PC</a>
+          <a href="#services">Reparación de Consolas</a>
+        </div>
+
+        <div class="footer__links">
+          <h4>Empresa</h4>
+          <a href="#why-us">Sobre Nosotros</a>
+          <a href="#pricing">Precios</a>
+          <a href="#testimonials">Opiniones</a>
+          <a href="#contact">Contacto</a>
+        </div>
+
+        <div class="footer__links">
+          <h4>Síguenos</h4>
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+          <a href="#">WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 We Love Fixit. Todos los derechos reservados.</p>
+        <div class="footer__socials">
+          <a href="#" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+            </svg></a>
+          <a href="#" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+            </svg></a>
+          <a href="#" aria-label="Twitter"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+            </svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
